@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const CONNECTION_URL = "http://localhost:3001/candidates";
+const CONNECTION_URL = "http://paripoornacasestudy-env.eba-spm2sph3.us-east-1.elasticbeanstalk.com/candidates";
 
 export const fetchCandidates = () => {
     const response = axios.get(CONNECTION_URL);

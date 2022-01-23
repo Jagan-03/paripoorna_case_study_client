@@ -66,7 +66,7 @@ const Table = () => {
           </tbody>
         </table>
       ) : (
-        <></>
+        <div className="w-100 text-center"><h1>No Candidates Registered</h1></div>
       )}
     </div>
   );
